@@ -12,14 +12,10 @@ public class HelloWorldController {
     }
 
 	@RequestMapping("/webhook")
-    public String hello(){
+    public String webhook(){
         return "webhook!";
     }
 	
-	@RequestMapping("/webhook2")
-    public String hello(){
-        return "webhook2bbb!";
-    }
 	
     @RequestMapping("/except")
     public String except(){
