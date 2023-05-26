@@ -16,6 +16,11 @@ public class HelloWorldController {
         return "webhook!";
     }
 	
+	@RequestMapping("/webhook2")
+    public String hello(){
+        return "webhook2!";
+    }
+	
     @RequestMapping("/except")
     public String except(){
         int i = 1/0;
